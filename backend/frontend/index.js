@@ -36,8 +36,9 @@ document.addEventListener("DOMContentLoaded",() =>{
                     window.location.href = `edit.html?id=${articulo.id}`
             })
 
-            celdaAcciones.appendChild(botonEliminar)
             celdaAcciones.appendChild(botonEditar)
+            celdaAcciones.appendChild(botonEliminar)
+            
 
             fila.appendChild(celdaTitulo)
             fila.appendChild(celdaDescripcion)
